@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Potter\Socket\Client;
 
-abstract class AbstractSocketClient extends SocketClientInterface
+abstract class AbstractSocketClient implements SocketClientInterface
 {
 
 }
